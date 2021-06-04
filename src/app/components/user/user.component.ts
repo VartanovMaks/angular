@@ -13,5 +13,10 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  goToDetails():void{
+    console.log(this.user);
+    // /users/:id
 
+
+  }
 }
